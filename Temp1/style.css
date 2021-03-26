@@ -1,0 +1,233 @@
+header {
+	background-color: black;
+}
+.sec2 {
+	background-color: black
+}
+footer {
+	background: #252525
+}
+.st1 {
+	font-size: 30px;
+}
+.st2 {
+	font-size: 34px;
+	font-weight: bold;
+}.nu {
+	font-size : 68px;
+	color : rgb(68,175,205);
+}
+.topimg {
+	position: relative;
+	text-align: right;
+}
+.upper-desc {
+	display: block;
+	margin-top: -22px;
+}
+.car-style {
+	text-align: center;
+}
+.toptext {
+	margin-left: 16%;
+	position : absolute;
+	top : 30%;
+	color : white;
+	font-family: 'Rubik', sans-serif;
+}
+.tpp {
+	color: black;
+}
+.main-title {
+	display: block;
+	margin-top: -20px;
+	font-size : 60px;
+	color : rgb(68,175,205);
+}
+.card-name {
+	color: #45AECB
+}
+.topbtn {
+	background-color : black;
+	display: block;
+	color : white;
+	margin-top: -30px;
+	font-weight: bold;
+	padding-left : 10%;
+	padding-right : 10%;
+	padding-top : 3%;
+	padding-bottom : 3%;
+}
+
+.btn-border {
+	border : 1px solid gray;
+}
+
+.btn-border-none {
+	border : none;
+}
+.topbtn:hover {
+	background-color: #45AECB;
+	text-decoration: none;
+  	color:black;
+}
+.btn-play {
+	position: absolute;
+	top: 35%;
+	left: 45%;
+}
+.fitness-image-curve {
+	position: absolute;
+	left: 0%;
+	bottom: 0%;
+	width: 100%;
+}
+.slider-button {
+	width: 50%;
+}
+.navbar-brand {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.navbar {
+	background-color: black;
+	font-size: 21px;
+}
+.navbar-nav {
+	margin-right: 40px;
+}
+.navbar-nav li {
+	font-family: 'Bebas Neue', cursive;
+	display: inline-block;
+	padding: 25px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.headings {
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 50px;
+	color: #45AECB;
+}
+.desc {
+	font-size: 18px;
+	color: #6B6B6B;
+}
+.formStyle {
+  background-color: black;
+  padding: 5px; 
+  width: 70%;
+  margin-bottom: 20px;
+  border-bottom-width: 1px;
+  text-transform: uppercase;
+  border-bottom-style:solid;
+  border-bottom-color: white;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none; 
+  font-size: 1.2em;
+  font-weight: 100;
+  color: white;
+}
+
+.formButton {
+	background-color:white;
+	display:block;
+	color:grey;
+	width: 70%;
+	height: 50px;
+	line-height: 38px;
+	text-align: center;
+	font-size:20px;
+	font-weight: 500;
+	padding:6px 24px;
+	text-decoration:none;
+}
+
+.formButton:hover {
+	background-color: #45AECB;
+	text-decoration: none;
+  	color:black;
+}
+input:focus {
+  outline: none;
+}
+.image {
+  opacity: 1;
+  display: inline-block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.griddesc {
+	color: #45AECB;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.footanc {
+	text-decoration: none;
+	color: #6B6B6B;
+}
+@media (max-width: 768px) {
+	.st1 {
+		font-size: 15px;
+	}
+	.st2 {
+		font-size: 17px;
+	}
+	.toptext {
+		position: absolute;
+		top:22%;
+		margin-left: 0;
+		font-size:70%;
+	}.nu {
+		margin-top: -8px;
+		font-size: 34px;
+	}
+	.main-title {
+		margin-top: -8px;
+		font-size : 30px;
+		color : rgb(68,175,205);
+	}
+	.upper-desc {
+		font-size: 10px;
+		margin-bottom: 5px;
+	}
+	.topimg {
+		position: relative;
+		width: 80%;
+		margin-left: 20%;
+	}
+	.formButton {
+		margin-left: 70px;
+	}
+	.my-form-message {
+		text-align: center;
+	}
+	.fitness-image-group {
+		display: none;
+	}
+	.navbar-nav li {
+		margin-bottom: -50px;
+	}
+	.foot-mar {
+		margin-bottom: 20px;
+	}
+}
